@@ -30,14 +30,14 @@ angular.module('starter', [
     controller: 'AppCtrl'
   })
 
-  .state('app.search', {
-    url: '/search',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/search.html'
-      }
-    }
-  })
+  // .state('app.search', {
+  //   url: '/search',
+  //   views: {
+  //     'menuContent': {
+  //       templateUrl: 'templates/search.html'
+  //     }
+  //   }
+  // })
 
   .state('app.browse', {
       url: '/browse',
